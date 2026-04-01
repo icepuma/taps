@@ -27,8 +27,8 @@ class Nanite < Formula
   end
 
   def install
-    bin.install Dir["*/nanite"].fetch(0)
-    doc.install Dir["*/README.md"].fetch(0)
+    bin.install "nanite"
+    doc.install "README.md"
   end
 
   test do
