@@ -8,20 +8,20 @@ class Nanite < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/icepuma/nanite/releases/download/v0.1.3/nanite-v0.1.3-aarch64-apple-darwin.tar.gz"
-      sha256 "3fd873e53906080bfcf044bb674382e026671400cc08864735a2b53c3fadff44"
+      url "https://github.com/icepuma/nanite/releases/download/v0.1.6/nanite-v0.1.6-aarch64-apple-darwin.tar.gz"
+      sha256 "cfebc20c5faf44c3da7b284efa2e4685aa08e815c0c120475146380c1985858c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/icepuma/nanite/releases/download/v0.1.3/nanite-v0.1.3-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9f64132668c2bd2e5369c4014a0d6be78c95ee33408d909f73429b93e4c7a8ed"
+      url "https://github.com/icepuma/nanite/releases/download/v0.1.6/nanite-v0.1.6-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b1660c807a08f228487f68b461c6ee3cdec63e50bd2f57370a61dd2b1d9f2b63"
     end
 
     on_intel do
-      url "https://github.com/icepuma/nanite/releases/download/v0.1.3/nanite-v0.1.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "bcc68cf2bc0f17e4a2a177515e27163dfc4c77f4765d80758ca047bcb71c4a62"
+      url "https://github.com/icepuma/nanite/releases/download/v0.1.6/nanite-v0.1.6-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ee6be92461da1ad80524990e0466b4a117b9a263c8fe763c9d8cb7c2e4561cd2"
     end
   end
 
