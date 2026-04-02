@@ -1,7 +1,6 @@
 class Nanite < Formula
   desc "Manage local repositories in an AI-first workspace"
   homepage "https://github.com/icepuma/nanite"
-  version "0.1.2"
   license "MIT"
 
   depends_on "fzf"
@@ -9,20 +8,20 @@ class Nanite < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/icepuma/nanite/releases/download/v0.1.2/nanite-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "7d762b6babc92a2177f180a336f2c19a1313883316ab2cab8ced26280e45fca4"
+      url "https://github.com/icepuma/nanite/releases/download/v0.1.3/nanite-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "3fd873e53906080bfcf044bb674382e026671400cc08864735a2b53c3fadff44"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/icepuma/nanite/releases/download/v0.1.2/nanite-v0.1.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "91d17df23bbd403cb3794ad4d5917efa685ba5fb5442481f7a71867be49779fa"
+      url "https://github.com/icepuma/nanite/releases/download/v0.1.3/nanite-v0.1.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9f64132668c2bd2e5369c4014a0d6be78c95ee33408d909f73429b93e4c7a8ed"
     end
 
     on_intel do
-      url "https://github.com/icepuma/nanite/releases/download/v0.1.2/nanite-v0.1.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b55f67de71d375d8b0b893e12d14581524a68c34b23f4fc5bea1757f4c7c07c7"
+      url "https://github.com/icepuma/nanite/releases/download/v0.1.3/nanite-v0.1.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "bcc68cf2bc0f17e4a2a177515e27163dfc4c77f4765d80758ca047bcb71c4a62"
     end
   end
 
